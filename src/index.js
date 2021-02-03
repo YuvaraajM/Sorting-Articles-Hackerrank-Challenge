@@ -46,6 +46,11 @@ const ARTICLES = [
 		upvotes: 7,
 		date: "2021-12-31",
 	},
+	{
+		title: "hello world",
+		upvotes: 9,
+		date: "2020-12-31",
+	},
 ];
 
 ReactDOM.render(<App articles={ARTICLES} />, document.getElementById("root"));
